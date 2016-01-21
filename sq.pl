@@ -8,6 +8,7 @@ my $a = "foo";
 my $b = "bar"; 
 print $a.$b."\n";
 print "ARGV[0]=".$ARGV[0]."\n";
-my $fname = $ARGV[0];
-
+my $x = $ARGV[0];
+my $y = $x * $x;
+print "$y \n";
 

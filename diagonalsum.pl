@@ -24,6 +24,6 @@ while (my $line = <STDIN>)
   $b += $arr[$j];
   #print "$b\n";
   $i++;
-}	
+}
 my $d = abs($a-$b);
 print "$d\n";

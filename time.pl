@@ -11,7 +11,7 @@ if ($time =~ /(\d+):(\d+):(\d+)(\w{2})/)
   my $s = $3;
   my $ampm = uc($4);
   #print "h = $h m = $m s = $s AMPM = $ampm\n";
-  
+
   if ($ampm eq "AM")
   {
     #print "hello\n"; 
@@ -25,7 +25,7 @@ if ($time =~ /(\d+):(\d+):(\d+)(\w{2})/)
    #print "in else\n";
    if ($h != 12)
    {
-     $h += 12;	
+     $h += 12;
    }
   }
   printf("%02d:%02d:%02d\n",$h,$m,$s);
